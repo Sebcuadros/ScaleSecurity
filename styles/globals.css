@@ -1,3 +1,67 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.scroll-parent {
+    position: relative;
+    top: 1rem;
+    width: 36vw;
+    height: 3rem;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    white-space: nowrap;
+  }
+  
+  .scroll-parent-mobile {
+    position: relative;
+    width: 36vw;
+    height: 1.5rem;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    white-space: nowrap;
+  }
+  
+  .scroll-element {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    animation: primary 12s linear infinite;
+    white-space: nowrap;
+  }
+  
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  
+  .primary {
+    animation: primary 11s linear infinite;
+  }
+  
+  .secondary {
+    animation: secondary 11s linear infinite;
+  }
+  
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+  
+  @keyframes secondary {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
