@@ -15,7 +15,7 @@ export default function Copy() {
             <div className="h-1/4 text-left ml-5">
                 <p className="text-3xl md:text-6xl font-bold">Technical recruiters that understand your products, problem sets, and needs. </p>
             </div>
-            <div className="h-1/6 text-left ml-5">
+            <div className="text-left ml-5">
                 <p className="text-3xl md:text-6xl font-bold">Chat with us below!</p>
             </div>
             <div>
