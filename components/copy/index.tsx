@@ -1,4 +1,4 @@
-import Button from "../UI/button"
+import Button2 from "../UI/button2"
 
 export default function Copy() {
     return (
@@ -19,7 +19,7 @@ export default function Copy() {
                 <p className="text-2xl md:text-5xl font-bold">Start hiring faster.</p>
             </div>
             <div className="mb-4 md:mb-28">
-               < Button/>
+               < Button2/>
             </div>
         </div>
     )
