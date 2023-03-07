@@ -2,23 +2,23 @@ import Button from "../UI/button"
 
 export default function Copy() {
     return (
-        <div className="z-10 h-screen w-screen relative md:bg-transparent text-white overflow-scroll">
-            <div className="h-1/3 text-center">
-                <h1 className="text-5xl md:text-9xl mt-4 font-black">SCALE SECURITY</h1>
+        <div className="z-10 h-screen w-screen relative bg-neutral-200 text-black overflow-scroll">
+            <div className="text-center">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-black">SCALE SECURITY</h1>
             </div>
-            <div className="h-1/3 text-left ml-5">
-                <p className="text-3xl md:text-8xl font-bold">WEB3 SECURITY HIRES MADE EASY</p>
+            <div className="text-left ml-5 mb-4">
+                <p className="text-base sm:text-base md:text-xl lg:text-2xl 2xl:text-3xl font-bold">WEB3 SECURITY HIRES MADE EASY</p>
             </div>
-            <div className="h-1/4 text-left ml-5">
-                <p className="text-3xl md:text-6xl font-bold">Research and engineering hires for the best teams building Web3 products</p>
+            <div className="text-left ml-5 mb-4">
+                <p className="text-2xl md:text-5xl font-bold">Research and engineering hires for the best teams building Web3 products</p>
             </div>
-            <div className="h-1/4 text-left ml-5">
-                <p className="text-3xl md:text-6xl font-bold">Technical recruiters that understand your products, problem sets, and needs. </p>
+            <div className="text-left ml-5 mb-4">
+                <p className="text-2xl md:text-5xl font-bold">Technical recruiters that understand your products, problem sets, and needs. </p>
             </div>
-            <div className="text-left ml-5">
-                <p className="text-3xl md:text-6xl font-bold">Chat with us below!</p>
+            <div className="text-left ml-5 mb-4">
+                <p className="text-2xl md:text-5xl font-bold">Start hiring faster.</p>
             </div>
-            <div>
+            <div className="mb-4 md:mb-28">
                < Button/>
             </div>
         </div>
