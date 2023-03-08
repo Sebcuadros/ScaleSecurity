@@ -2,7 +2,7 @@ import Button2 from "../UI/button2"
 
 export default function Copy() {
     return (
-        <div className="z-10 h-screen w-screen relative bg-neutral-200 text-black">
+        <div className="z-10 h-full w-screen relative bg-neutral-200 text-black">
             <div className="bg-lime-300 h-2"> </div>
             <div className="bg-black h-1"> </div>
             <div className="text-center mt-3">
