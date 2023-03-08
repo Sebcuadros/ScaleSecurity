@@ -11,16 +11,16 @@ export default function Copy() {
             <div className="text-center mb-24 px-1">
                 <p className="text-base sm:text-base md:text-xl lg:text-2xl 2xl:text-3xl font-semibold text-center mb-10">End to end recruitment support for teams building Web3 products</p>
             </div>
-            <div className="flex flex-col justify-center items-center md:flex-row">
-                <div className="text-center flex flex-col justify-center h-44 md:h-96 px-10 rounded md:shadow-xl mb-6">
+            <div className="flex flex-col justify-center items-center md:flex-row lg:space-x-10">
+                <div className="text-center flex flex-col justify-center md:w-72 h-44 md:h-96 px-10 rounded md:shadow-xl mb-6">
                     <h2 className="text-xl md:text-3xl font-extrabold mb-3 mt-2"> Easy Onboarding </h2>
                     <p className="text-base md:text-2xl font-normal">Schedule a free consult session with our core team, walk us through your needs and you&apos;re good to go. </p>
                 </div>
-                <div className="text-center flex flex-col justify-center h-44 md:h-96 px-10 rounded md:shadow-xl mt-2 mb-6">
+                <div className="text-center flex flex-col justify-center md:w-72 h-44 md:h-96 px-10 rounded md:shadow-xl mt-2 mb-6">
                     <h2 className="text-xl md:text-3xl font-extrabold mb-3"> Specialized Search </h2>
                     <p className="text-base md:text-2xl font-normal">Technical recruiters that can tech and culture align engineers and employers</p>
                 </div>
-                <div className="text-center flex flex-col justify-center h-44 md:h-96 px-10 rounded md:shadow-xl mt-2 mb-6">
+                <div className="text-center flex flex-col justify-center md:w-72 h-44 md:h-96 px-10 rounded md:shadow-xl mt-2 mb-6">
                     <h2 className="text-xl md:text-3xl font-extrabold mb-3"> Custom Recruitment</h2>
                     <p className="text-base md:text-2xl font-normal">End to end recruitment support from sourcing, interviewing, onboarding, and tooling set up.</p>
                 </div>   
