@@ -4,7 +4,7 @@ import Copy from "@/components/copy";
 
 export default function LandingPage() {
     return (
-    <div> 
+    <div className="bg-slate-200"> 
         <div>
             <Header/>
         </div>

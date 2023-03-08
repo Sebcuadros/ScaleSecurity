@@ -2,9 +2,11 @@ import Button from "../UI/button"
 import ScrollHeader from "../UI/scrollHeader"
 
 export default function Header() {
-    return <nav className="flex w-screen bg-black">
-        <div className="basis-1/6 md:basis-1/2 text-left text-white ml-4 mt-4 font-black text-2xl">ScaleSecurity</div>
+    return <nav className="flex flex-wrap bg-black justify-center sm:justify-between">
+        <div className="text-white ml-2 md:ml-4 mr-2 mt-4 md:mt-7 font-black text-xl">ScaleSecurity</div>
 
-        <div className="basis-5/6 md:basis-1/2 flex justify-end mr-4"> <ScrollHeader/>< Button/> </div>
+        <div className="mr-1"> <ScrollHeader/></div>
+
+        <div className="lg:mr-4 xl:mr-6"><Button/></div>
     </nav>
 }
