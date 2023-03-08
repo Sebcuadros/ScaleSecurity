@@ -12,7 +12,7 @@ export default function Copy() {
             <div className="flex-row justify-center space-x-24">
                 <div className="text-center w-72 h-96 bg-neutral-100 px-10 rounded">
                     <h2 className="text-2xl md:text-3xl font-extrabold mb-3"> Easy Onboarding </h2>
-                    <p className="text-xl md:text-2xl font-medium">Schedule a free consult session with our core team, walk us through your needs and you're good to go. </p>
+                    <p className="text-xl md:text-2xl font-medium">Schedule a free consult session with our core team, walk us through your needs and you&apos;re good to go. </p>
                 </div>
                 <div className="text-center w-72 h-96 bg-neutral-100 px-10 rounded">
                     <h2 className="text-2xl md:text-3xl font-extrabold mb-3"> Specialized Search </h2>
@@ -22,7 +22,7 @@ export default function Copy() {
                     <h2 className="text-2xl md:text-3xl font-extrabold mb-3"> Custom Recruitment</h2>
                     <p className="text-xl md:text-2xl font-medium">End to end recruitment support from sourcing, interviewing, onboarding, and tooling set up.</p>
                 </div>
-            </div>
+        </div>
             <div className="mb-4 md:mb-28">
                < Button2/>
             </div>
