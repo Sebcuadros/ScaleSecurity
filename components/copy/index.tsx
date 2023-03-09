@@ -2,14 +2,9 @@ import Button2 from "../UI/button2"
 
 export default function Copy() {
     return (
-        <div className="z-10 h-full sm:h-screen w-screen relative bg-neutral-200 text-black">
-            <div className="bg-lime-300 h-2"> </div>
-            <div className="bg-black h-1"> </div>
-            <div className="text-center mt-3">
-                <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-black">WEB3 SECURITY HIRING</h1>
-            </div>
-            <div className="text-center mb-24 px-1">
-                <p className="text-base sm:text-base md:text-xl lg:text-2xl 2xl:text-3xl font-semibold text-center mb-10">End to end recruitment support for teams building Web3 products</p>
+        <div className="z-10 h-full sm:h-screen w-screen relative bg-white text-black">
+            <div className="text-left mt-3 mx-3">
+                <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold">We take hiring off the hands of Web3 security teams</h1>
             </div>
             <div className="flex flex-col justify-center items-center md:flex-row lg:space-x-10">
                 <div className="text-center flex flex-col justify-center md:w-72 h-44 md:h-96 px-10 rounded md:shadow-xl mb-6">

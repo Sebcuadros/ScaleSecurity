@@ -9,7 +9,6 @@ export default function LandingPage() {
             <Header/>
         </div>
         <div>
-            <Hero/>
             <Copy/>
         </div>
     </div>
