@@ -4,9 +4,9 @@ export default function Copy() {
     return (
         <div className="z-10 w-screen relative bg-white text-black">
             <div className="text-left py-28 px-3 md:px-16 lg:px-28 max-w-6xl">
-                <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold">We take hiring off the hands of Web3 security teams</h1>
+                <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold">We take hiring off the hands of Web3 security teams.</h1>
             </div>
-            <div>
+            <div className="px-3 md:px-16 lg:px-28">
                 <video autoPlay loop>
                 <source src="/glitch.mp4"/>
                 </video>
