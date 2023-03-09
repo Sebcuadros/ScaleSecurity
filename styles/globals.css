@@ -5,7 +5,7 @@
 .scroll-parent {
   position: relative;
   top: 1rem;
-  width: 50vw;
+  width: 60vw;
   height: 3rem;
   overflow-x: hidden;
   overflow-y:hidden;
@@ -14,7 +14,7 @@
 
 .scroll-parent-mobile {
   position: relative;
-  width: 60vw;
+  width: 80vh;
   height: 1.5rem;
   overflow-x: hidden;
   overflow-y:hidden;
