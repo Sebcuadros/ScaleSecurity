@@ -7,7 +7,7 @@ export default function Copy() {
                 <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold">We take hiring off the hands of Web3 security teams.</h1>
             </div>
             <div className="px-3 md:px-16 lg:px-28">
-                <video autoPlay loop>
+                <video autoPlay loop muted>
                 <source src="/glitch.mp4"/>
                 </video>
             </div>
