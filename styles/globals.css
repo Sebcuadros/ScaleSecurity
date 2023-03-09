@@ -14,7 +14,7 @@
 
 .scroll-parent-mobile {
   position: relative;
-  width: 80vh;
+  width: 375px;
   height: 1.5rem;
   overflow-x: hidden;
   overflow-y:hidden;
